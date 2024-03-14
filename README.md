@@ -1,2 +1,1 @@
-Learning GraphQL Apollo with React 
-Project undergoing in process 
+Project ongoing in process 
