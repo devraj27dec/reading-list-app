@@ -21,7 +21,6 @@ async function main() {
     
     app.use('/graphql' , expressMiddleware(server))
     
-
     await mongoose.connect(MONGODB_URI)
         .then(() => console.log('Database Connected Succesfully'))
         .catch(err => console.log(err));
